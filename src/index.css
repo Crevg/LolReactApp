@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  box-sizing: border-box;
+  --font-size-title: 3vw;
+  --font-size-sub: 2.5vw;
+  --icon-size: 12vw;
+  --icon-size-w-border: 11.6vw; 
+}
+
+@media (min-width: 720px){
+  * {
+    --font-size-title: 2.4vw;
+    --font-size-sub: 1.8vw; 
+    --icon-size: 10vw;
+    --icon-size-w-border: 9.6vw; 
+
+  }  
+}
+
+@media (min-width: 992px){
+  * {
+    --font-size-title: 1.3vw;
+  --font-size-sub: 0.8vw;   
+  --icon-size: 5vw;
+  --icon-size-w-border: 4.6vw;
+
+  }  
+}
+
+

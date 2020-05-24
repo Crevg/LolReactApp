@@ -1,0 +1,60 @@
+.StatsContainer{
+    box-shadow: 0px 5px 0.5vw #757575;
+    border-radius: 2%;
+    padding: 10%;
+}
+
+*{
+    text-align: center;
+}
+
+.QueueType {
+    font-size: var(--font-size-title);
+}
+
+.RankImgContainer{
+    border-radius: 50%;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+
+.RankImg{
+    width: var(--icon-size);
+    height: var(--icon-size); 
+}
+
+.TierRank{
+    font-size: var(--font-size-sub);
+}
+
+.StatsInfo {
+    font-size: var(--font-size-sub);
+}
+
+.Wins{
+    color: rgb(0, 130, 0);
+}
+
+.Losses {
+    color: rgb(130, 0, 0);
+}
+
+.WinIcon{
+    color:  rgb(0, 130, 0);
+    font-size: var(--font-size-title);
+}
+
+.LoseIcon{
+    color:  rgb(130, 0, 0);
+    font-size: var(--font-size-title);
+}
+
+.NullIcon {
+    
+    font-size: var(--font-size-title);
+}
