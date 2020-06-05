@@ -9,13 +9,13 @@ class RiotApiEndPoints {
     return RiotApiEndPoints.API_PATH + '/lol/summoner/v4/summoners/by-name/' + summonerName + API_KEY;
   };
 
-  getRanked = (encryptedSummonerId: string) => {
+  static getRanked = (encryptedSummonerId: string) => {
     return (
         RiotApiEndPoints.API_PATH + '/lol/league/v4/entries/by-summoner/' + encryptedSummonerId + API_KEY
     );
   };
 
-  getChampMastery = (encryptedSummonerId: string) => {
+  static getChampMastery = (encryptedSummonerId: string) => {
     return (
         RiotApiEndPoints.API_PATH + '/lol/champion-mastery/v4/champion-masteries/by-summoner/' +
       encryptedSummonerId +
@@ -25,7 +25,7 @@ class RiotApiEndPoints {
 
   /* Static */
 
-  getIcon = (iconNumber: number) => {
+  static getIcon = (iconNumber: number) => {
     return (
       'http://ddragon.leagueoflegends.com/cdn/10.10.3208608/img/profileicon/' +
       iconNumber +
@@ -33,7 +33,7 @@ class RiotApiEndPoints {
     );
   };
 
-  getChampInfo = (champName: string) => {
+  static getChampInfo = (champName: string) => {
     return (
       'ddragon.leagueoflegends.com/cdn/10.10.3208608/data/en_US/champion/' +
       champName +
@@ -41,14 +41,14 @@ class RiotApiEndPoints {
     );
   };
 
-  getPassiveIcon = (imageFull: string) => {
+  static getPassiveIcon = (imageFull: string) => {
     return (
       'http://ddragon.leagueoflegends.com/cdn/10.10.3208608/img/passive/' +
       imageFull
     );
   };
 
-  getSpellsIcons = (imageFull: string) => {
+  static getSpellsIcons = (imageFull: string) => {
     return (
       'http://ddragon.leagueoflegends.com/cdn/10.10.3208608/img/spell/' +
       imageFull

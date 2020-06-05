@@ -1,0 +1,9 @@
+.NotFoundContainer{
+    width: 100%;
+    box-shadow: 5px 5px 10px rgb(206, 153, 153);
+    padding: 3vw;
+}
+
+.NotFoundMessage{
+    font-size: var(--font-size-title);
+}

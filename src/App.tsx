@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.scss';
-import MainContainer from './Shared/Container/MainContainer';
+import MainContainer from './Shared/Container/MainContainer/MainContainer';
 import Header from './Shared/Header/Header';
 
 type MyState = {
